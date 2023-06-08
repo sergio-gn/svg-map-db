@@ -1,0 +1,19 @@
+
+.linksContainer {
+    display: none;
+    position:absolute;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.region:hover{
+    fill: #ffffff90;
+    z-index: 99;
+    position: absolute;
+    cursor: pointer;
+    transition: fill 0.3s;
+}
+.name{
+    pointer-events: none;
+    fill: black;
+}
